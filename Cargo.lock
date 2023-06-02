@@ -3,21 +3,13 @@
 version = 3
 
 [[package]]
-name = "cargo_ice_repo_1"
-version = "0.1.0"
-source = "git+https://github.com/jmpesp/cargo_ice_repo_1?rev=da8316ceac00434c7b658e78a8fe12602c7c9098#da8316ceac00434c7b658e78a8fe12602c7c9098"
-dependencies = [
- "cargo_ice_repo_2 0.1.0 (git+https://github.com/jmpesp/cargo_ice_repo_2?rev=c78e53a85c68fdf158defaf6e8c23151f73b009c)",
-]
-
-[[package]]
 name = "cargo_ice_repo_2"
 version = "0.1.0"
 dependencies = [
- "cargo_ice_repo_1",
+ "submod",
 ]
 
 [[package]]
-name = "cargo_ice_repo_2"
+name = "submod"
 version = "0.1.0"
-source = "git+https://github.com/jmpesp/cargo_ice_repo_2?rev=c78e53a85c68fdf158defaf6e8c23151f73b009c#c78e53a85c68fdf158defaf6e8c23151f73b009c"
+source = "git+https://github.com/jmpesp/cargo_ice_repo_1?rev=fedec7#fedec798b5a148442e79bfa4924fa4cc523d2242"
