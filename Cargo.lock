@@ -16,4 +16,4 @@ version = "0.1.0"
 [[package]]
 name = "submod"
 version = "0.1.0"
-source = "git+https://github.com/jmpesp/cargo_ice_repo_1?branch=main#521e1747316498db61eab14b20eef91b08de25bf"
+source = "git+https://github.com/jmpesp/cargo_ice_repo_1?branch=main#aae95004f0b7b594c64b92b5b0c86e67388cf17c"
