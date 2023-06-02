@@ -5,6 +5,7 @@ edition = "2021"
 
 [workspace]
 members = ["binary"]
+default-members = ["binary"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
