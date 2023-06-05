@@ -10,4 +10,4 @@ default-members = ["binary"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [workspace.dependencies]
-submod = { git = "https://github.com/jmpesp/cargo_ice_repo_1", branch = "main" }
+submod2 = { git = "https://github.com/jmpesp/cargo_ice_repo_1", branch = "main" }
